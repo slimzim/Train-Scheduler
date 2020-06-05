@@ -83,7 +83,7 @@ $("#add-train-btn").on("click", function(event){
     var td5 = $("<td>");
     td5.html(Math.abs(tMinutesTillTrain));
  
-    newTR.append(td1, td2, td3, td4, td5, td6);
+    newTR.append(td1, td2, td3, td4, td5);
     $("#schedule-table").append(newTR)
 
    })
